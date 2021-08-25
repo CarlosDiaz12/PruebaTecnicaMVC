@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnicaMVC", "PruebaTecnicaMVC.csproj", "{E5D7A3BC-BD9D-4515-99C8-87A3BADCCA95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnica.UI", "PruebaTecnica.UI.csproj", "{E5D7A3BC-BD9D-4515-99C8-87A3BADCCA95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnica.DataAccess", "..\PruebaTecnica.DataAccess\PruebaTecnica.DataAccess.csproj", "{79A49993-D74E-42D6-BF62-01BDFAC99BBD}"
 EndProject
