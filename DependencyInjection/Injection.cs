@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using PruebaTecnica.BusinessLogic.Service;
 using PruebaTecnica.DataAccess.Interface;
 using PruebaTecnica.DataAccess.Model;
 using PruebaTecnica.DataAccess.Repository;
@@ -14,7 +15,7 @@ namespace PruebaTecnicaMVC.DependencyInjection
             services.AddScoped<IRepository<Aula>, AulaRepository>();
             services.AddScoped<IRepository<Asignatura>, AsignaturaRepository>();
             services.AddScoped<IRepository<Asignacion>, AsignacionRepository>();
-            //services.AddScoped<EmployeeService, EmployeeService>();
+            services.AddScoped<EstudianteService, EstudianteService>();
             return services;
         }
 
